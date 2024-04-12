@@ -1,0 +1,14 @@
+@import '../../../app/variables.scss';
+
+.wrapper {
+    padding: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: $gap;
+    overflow: hidden;
+    background-color: $colorLightGrey;
+    border-radius: $radius;
+    color: $colorWhite;
+}

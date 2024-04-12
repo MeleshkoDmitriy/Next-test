@@ -1,0 +1,81 @@
+@import '../../app/variables.scss';
+
+.wrapper {
+    margin: $gap 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: $gap;
+    padding: $gap;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: $gap;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: $gap;
+    background-color: $colorLightGrey;
+    width: 100%;
+    padding: $gap;
+    border-radius: $radius;
+
+    .name {
+        width: 100px;
+        max-width: 150px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }    
+}
+
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: $gap;
+
+    .telephone {
+        width: 100%;
+
+        input {
+            border-radius: $radius;
+            padding: $gap;
+            width: 100%;
+            outline: none;
+            border: none;
+            font-size: 20px;
+        }
+    }
+
+    .buttonsWrapper {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.button {
+    padding: $gap;
+    border-radius: $radius;
+    background-color: $colorLightGrey;
+    transition: $transition;
+    color: $colorWhite;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: $colorWhite;
+        color: $colorBlack;
+    }
+}
