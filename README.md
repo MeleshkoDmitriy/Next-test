@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Тестовое задание: Реализация React / Next.js приложения
 
-## Getting Started
+## TypeScript, React, Next.js, Redux Toolkit, SCSS
 
-First, run the development server:
+Этот проект разработан в соответствии с требованиями тестового задания и включает в себя следующие аспекты:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Выполненные задачи:
+- Создан адаптивный дизайн для мобильных устройств и планшетов.
+- Реализована загрузка контента отзывов из HTML, обернутого в JSON формат.
+- Реализована загрузка контента товаров по API, показывается первая страница сразу, остальные страницы подгружаются по мере прокрутки вниз.
+- Добавлен функционал кнопки "Купить": при нажатии кнопка меняется на кнопки "+" и "-", а также появляется поле для ввода количества товара.
+- Информация в корзине автоматически обновляется при изменении количества товаров.
+- Реализовано сохранение выбранных товаров и введенного номера телефона при перезагрузке страницы.
+- Добавлена маска в поле для ввода телефона.
+- Реализована проверка введенного номера телефона при нажатии кнопки "Заказать".
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Дополнительные улучшения:
+- Добавлены прелоадеры для улучшения пользовательского опыта во время загрузки контента.
+- Проект оптимизирован для скорости загрузки и появления контента с помощью SSR (Server-Side Rendering).
+- Код проекта организован с учетом читаемости, поддерживаемости и расширяемости.
+- Реализовал store и userSlice в Redux Toolkit для управления состоянием приложения.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Как запустить проект:
+1. Установите зависимости с помощью команды npm install.
+2. Запустите проект с помощью команды npm run dev.
+3. Просмотрите результаты работы проекта, открыв его в браузере по адресу http://localhost:3000.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Дополнительная информация:
+- Для улучшения проекта можно добавить дополнительные функциональности, такие как фильтрация продуктов или дополнительные варианты покупки.
+- Рекомендуется продолжать оптимизацию проекта для обеспечения лучшего пользовательского опыта и производительности.
